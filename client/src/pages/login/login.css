@@ -1,0 +1,62 @@
+.login {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("https://i.guim.co.uk/img/media/c77c5b0fe68a47786902c9d59a0eefe5f9189754/0_362_5464_3278/master/5464.jpg?width=1020&quality=85&auto=format&fit=max&s=ceefcd17583fef2210b021ba14391f07");
+  background-size: cover;
+}
+
+.loginTitle {
+  font-size: 50px;
+}
+
+.loginForm {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+
+.loginForm > label {
+  margin: 10px 0;
+ 
+}
+
+.loginInput {
+  padding: 10px;
+  background-color: white;
+  border: none;
+}
+
+.loginButton {
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: rgb(231, 63, 63);
+  border: none;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.loginButton:disabled{
+  cursor: not-allowed;
+  background-color: rgb(252, 173, 173);
+}
+
+.loginRegisterButton {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background-color: teal;
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+}
